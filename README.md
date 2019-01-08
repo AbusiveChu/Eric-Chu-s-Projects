@@ -1,2 +1,2 @@
-# Eric-Chu-s-Projects
-All of the projects that I have done that I want to share!
+# Eric Chu's Projects
+The projects I've worked on that aren't horrible (I hope)!
