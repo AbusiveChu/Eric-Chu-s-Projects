@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Match3Template.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{2E1FB9A5-7CAD-4ED3-AE31-08EE858E73D4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Match3Template.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Match3TemplateEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{FA6362C8-6D1F-4BCA-A355-076F3EBE1975}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{EB76A1FC-4FDD-4F09-99D7-4F6019319553}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\Dummy">
+			<UniqueIdentifier>{5E86A90F-8F84-43C1-AD44-79C7BFD19B41}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\Dummy\Source">
+			<UniqueIdentifier>{E51965EB-4B0D-41AA-B48B-5C2D9D1A4EC3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\Dummy\Source\Dummy">
+			<UniqueIdentifier>{926D164E-7456-4FDE-AC89-059AC446EAF9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\Dummy\Source\Dummy\Dummy.Build.cs">
+			<Filter>Plugins\Dummy\Source\Dummy</Filter>
+		</None >
+		<Filter Include="Plugins\Dummy\Source\Dummy\Private">
+			<UniqueIdentifier>{C02C2D0F-A09A-47E6-863B-68ADFE162E0C}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\Dummy\Source\Dummy\Private\Dummy.cpp">
+			<Filter>Plugins\Dummy\Source\Dummy\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\Dummy\Source\Dummy\Public">
+			<UniqueIdentifier>{7F403DF8-118C-431D-BBA8-685E9849753E}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\Dummy\Source\Dummy\Public\Dummy.h">
+			<Filter>Plugins\Dummy\Source\Dummy\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\Dummy\Dummy.uplugin">
+			<Filter>Plugins\Dummy</Filter>
+		</None >
+		<Filter Include="Plugins\Dummy\Resources">
+			<UniqueIdentifier>{F8C2F08E-1C5E-48A7-80C9-992A930029F4}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\Dummy\Resources\Icon128.png">
+			<Filter>Plugins\Dummy\Resources</Filter>
+		</None >
+		<Filter Include="Source\Match3Template">
+			<UniqueIdentifier>{2BBEAAF3-F4DA-477F-BEC5-C97106F3FA35}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Match3Template\Match3Template.Build.cs">
+			<Filter>Source\Match3Template</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Match3Template\Match3Template.cpp">
+			<Filter>Source\Match3Template</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Match3Template\Match3Template.h">
+			<Filter>Source\Match3Template</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Match3Template\MyClass.cpp">
+			<Filter>Source\Match3Template</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Match3Template\MyClass.h">
+			<Filter>Source\Match3Template</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.17",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "TestPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "JustLogs",
+			"Enabled": true
+		}
+	]
+}

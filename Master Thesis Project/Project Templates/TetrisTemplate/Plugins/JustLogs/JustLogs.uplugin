@@ -1,0 +1,26 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "JustLogs",
+	"Description" : "Logs for important events, control case",
+	"Category" : "Other",
+	"CreatedBy" : "",
+	"CreatedByURL" : "",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EngineVersion" : "4.17.0",
+	"CanContainContent" : true,
+	"IsBetaVersion" : false,
+	"Installed" : true,
+	"RequiresBuildPlatform" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "JustLogs",
+			"Type" : "Editor",
+			"LoadingPhase" : "PostEngineInit"
+		}
+	]
+}

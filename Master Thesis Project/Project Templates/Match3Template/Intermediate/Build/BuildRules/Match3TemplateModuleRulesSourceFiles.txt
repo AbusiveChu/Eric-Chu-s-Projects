@@ -1,0 +1,4 @@
+C:\Users\bottl\Documents\Unreal Projects\Match3Template\Source\Match3Template\Match3Template.Build.cs
+C:\Users\bottl\Documents\Unreal Projects\Match3Template\Plugins\TestPlugin\TestPlugin\TestPlugin\Source\TestPlugin\TestPlugin.Build.cs
+C:\Users\bottl\Documents\Unreal Projects\Match3Template\Source\Match3Template.Target.cs
+C:\Users\bottl\Documents\Unreal Projects\Match3Template\Source\Match3TemplateEditor.Target.cs

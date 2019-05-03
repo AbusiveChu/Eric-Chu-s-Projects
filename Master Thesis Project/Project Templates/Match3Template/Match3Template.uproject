@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.17",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Match3Template",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "TestPlugin",
+			"Enabled": false
+		},
+		{
+			"Name": "JustLogs",
+			"Enabled": true
+		}
+	]
+}
