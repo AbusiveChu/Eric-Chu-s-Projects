@@ -1,0 +1,411 @@
+fileFormatVersion: 2
+guid: 6bdc14c7d840c65479d50c612e9c22c8
+timeCreated: 1460730079
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Chest_manipulator
+    100002: geometry_group
+    100004: group1
+    100006: group2
+    100008: Hambo5
+    100010: //RootNode
+    100012: IK_handle_group
+    100014: L_ankle
+    100016: L_ball_IK
+    100018: L_elbow
+    100020: L_elbow_polevector
+    100022: L_foot_ball
+    100024: L_foot_manipulator
+    100026: L_forearm
+    100028: L_hand1
+    100030: L_hand2
+    100032: L_hand_IK
+    100034: L_hand_manipulator
+    100036: L_knee
+    100038: L_knee_polevector
+    100040: L_leg_IK
+    100042: L_rev_foot_ankle
+    100044: L_rev_foot_ball
+    100046: L_rev_foot_heel
+    100048: L_rev_foot_toe
+    100050: L_shoulder_blade1
+    100052: L_thigh
+    100054: L_thumb1
+    100056: L_thumb2
+    100058: L_toe
+    100060: L_toe_IK
+    100062: L_upper_Arm
+    100064: L_wrist
+    100066: lower_back_cluster
+    100068: Master_manipulator
+    100070: Master_manipulators_and_scale
+    100072: Masterroot
+    100074: Neck1
+    100076: Neck2
+    100078: R_ankle
+    100080: R_ball_IK
+    100082: R_elbow
+    100084: R_elbow_polevector
+    100086: R_foot_ball
+    100088: R_foot_manipulator
+    100090: R_forearm
+    100092: R_hand1
+    100094: R_hand2
+    100096: R_hand_controller
+    100098: R_hand_IK
+    100100: R_knee
+    100102: R_knee_polevector
+    100104: R_leg_IK
+    100106: R_rev_foot_ankle
+    100108: R_rev_foot_ball
+    100110: R_rev_foot_heel
+    100112: R_rev_foot_toe
+    100114: R_shoulder_blade
+    100116: R_thigh
+    100118: R_thumb1
+    100120: R_thumb2
+    100122: R_toe
+    100124: R_toe_IK
+    100126: R_upper_Arm
+    100128: R_wrist
+    100130: Spine
+    100132: Spine1
+    100134: Spine2
+    100136: Spine3
+    100138: Spine4
+    100140: Spine5
+    100142: Spine_IK_curve
+    100144: Spine_IK_handle
+    100146: upper_back_cluster
+    100148: Waist
+    100150: waist_manipulator
+    100152: Wasit_override
+    400000: Chest_manipulator
+    400002: geometry_group
+    400004: group1
+    400006: group2
+    400008: Hambo5
+    400010: //RootNode
+    400012: IK_handle_group
+    400014: L_ankle
+    400016: L_ball_IK
+    400018: L_elbow
+    400020: L_elbow_polevector
+    400022: L_foot_ball
+    400024: L_foot_manipulator
+    400026: L_forearm
+    400028: L_hand1
+    400030: L_hand2
+    400032: L_hand_IK
+    400034: L_hand_manipulator
+    400036: L_knee
+    400038: L_knee_polevector
+    400040: L_leg_IK
+    400042: L_rev_foot_ankle
+    400044: L_rev_foot_ball
+    400046: L_rev_foot_heel
+    400048: L_rev_foot_toe
+    400050: L_shoulder_blade1
+    400052: L_thigh
+    400054: L_thumb1
+    400056: L_thumb2
+    400058: L_toe
+    400060: L_toe_IK
+    400062: L_upper_Arm
+    400064: L_wrist
+    400066: lower_back_cluster
+    400068: Master_manipulator
+    400070: Master_manipulators_and_scale
+    400072: Masterroot
+    400074: Neck1
+    400076: Neck2
+    400078: R_ankle
+    400080: R_ball_IK
+    400082: R_elbow
+    400084: R_elbow_polevector
+    400086: R_foot_ball
+    400088: R_foot_manipulator
+    400090: R_forearm
+    400092: R_hand1
+    400094: R_hand2
+    400096: R_hand_controller
+    400098: R_hand_IK
+    400100: R_knee
+    400102: R_knee_polevector
+    400104: R_leg_IK
+    400106: R_rev_foot_ankle
+    400108: R_rev_foot_ball
+    400110: R_rev_foot_heel
+    400112: R_rev_foot_toe
+    400114: R_shoulder_blade
+    400116: R_thigh
+    400118: R_thumb1
+    400120: R_thumb2
+    400122: R_toe
+    400124: R_toe_IK
+    400126: R_upper_Arm
+    400128: R_wrist
+    400130: Spine
+    400132: Spine1
+    400134: Spine2
+    400136: Spine3
+    400138: Spine4
+    400140: Spine5
+    400142: Spine_IK_curve
+    400144: Spine_IK_handle
+    400146: upper_back_cluster
+    400148: Waist
+    400150: waist_manipulator
+    400152: Wasit_override
+    4300000: Hambo5
+    7400000: Hambo_Run_Animation
+    9500000: //RootNode
+    13700000: Hambo5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Hambo_Run_Animation
+      takeName: Hambo_Run_Animation
+      firstFrame: 1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geometry_group
+        weight: 1
+      - path: geometry_group/Hambo5
+        weight: 1
+      - path: IK_handle_group
+        weight: 1
+      - path: IK_handle_group/L_hand_IK
+        weight: 1
+      - path: IK_handle_group/R_hand_IK
+        weight: 1
+      - path: IK_handle_group/Spine_IK_curve
+        weight: 1
+      - path: IK_handle_group/Spine_IK_handle
+        weight: 1
+      - path: Master_manipulators_and_scale
+        weight: 1
+      - path: Master_manipulators_and_scale/L_elbow_polevector
+        weight: 1
+      - path: Master_manipulators_and_scale/L_knee_polevector
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/Chest_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/Chest_manipulator/group2
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/Chest_manipulator/group2/upper_back_cluster
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/L_foot_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/L_foot_manipulator/L_rev_foot_heel
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/L_foot_manipulator/L_rev_foot_heel/L_rev_foot_toe
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/L_foot_manipulator/L_rev_foot_heel/L_rev_foot_toe/L_rev_foot_ball
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/L_foot_manipulator/L_rev_foot_heel/L_rev_foot_toe/L_rev_foot_ball/L_ball_IK
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/L_foot_manipulator/L_rev_foot_heel/L_rev_foot_toe/L_rev_foot_ball/L_rev_foot_ankle
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/L_foot_manipulator/L_rev_foot_heel/L_rev_foot_toe/L_rev_foot_ball/L_rev_foot_ankle/L_leg_IK
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/L_foot_manipulator/L_rev_foot_heel/L_rev_foot_toe/L_toe_IK
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/L_hand_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/R_foot_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/R_foot_manipulator/R_rev_foot_heel
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/R_foot_manipulator/R_rev_foot_heel/R_rev_foot_toe
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/R_foot_manipulator/R_rev_foot_heel/R_rev_foot_toe/R_rev_foot_ball
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/R_foot_manipulator/R_rev_foot_heel/R_rev_foot_toe/R_rev_foot_ball/R_ball_IK
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/R_foot_manipulator/R_rev_foot_heel/R_rev_foot_toe/R_rev_foot_ball/R_rev_foot_ankle
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/R_foot_manipulator/R_rev_foot_heel/R_rev_foot_toe/R_rev_foot_ball/R_rev_foot_ankle/R_leg_IK
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/R_foot_manipulator/R_rev_foot_heel/R_rev_foot_toe/R_toe_IK
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/R_hand_controller
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/waist_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/L_shoulder_blade1
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/L_shoulder_blade1/L_upper_Arm
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/L_shoulder_blade1/L_upper_Arm/L_elbow
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/L_shoulder_blade1/L_upper_Arm/L_elbow/L_forearm
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/L_shoulder_blade1/L_upper_Arm/L_elbow/L_forearm/L_wrist
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/L_shoulder_blade1/L_upper_Arm/L_elbow/L_forearm/L_wrist/L_hand1
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/L_shoulder_blade1/L_upper_Arm/L_elbow/L_forearm/L_wrist/L_hand1/L_hand2
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/L_shoulder_blade1/L_upper_Arm/L_elbow/L_forearm/L_wrist/L_thumb1
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/L_shoulder_blade1/L_upper_Arm/L_elbow/L_forearm/L_wrist/L_thumb1/L_thumb2
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Neck1
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/Neck1/Neck2
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/R_shoulder_blade
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/R_shoulder_blade/R_upper_Arm
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/R_shoulder_blade/R_upper_Arm/R_elbow
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/R_shoulder_blade/R_upper_Arm/R_elbow/R_forearm
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/R_shoulder_blade/R_upper_Arm/R_elbow/R_forearm/R_wrist
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/R_shoulder_blade/R_upper_Arm/R_elbow/R_forearm/R_wrist/R_hand1
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/R_shoulder_blade/R_upper_Arm/R_elbow/R_forearm/R_wrist/R_hand1/R_hand2
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/R_shoulder_blade/R_upper_Arm/R_elbow/R_forearm/R_wrist/R_thumb1
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Spine/Spine1/Spine2/Spine3/Spine4/Spine5/R_shoulder_blade/R_upper_Arm/R_elbow/R_forearm/R_wrist/R_thumb1/R_thumb2
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override/group1
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override/group1/lower_back_cluster
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override/L_thigh
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override/L_thigh/L_knee
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override/L_thigh/L_knee/L_ankle
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override/L_thigh/L_knee/L_ankle/L_foot_ball
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override/L_thigh/L_knee/L_ankle/L_foot_ball/L_toe
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override/R_thigh
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override/R_thigh/R_knee
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override/R_thigh/R_knee/R_ankle
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override/R_thigh/R_knee/R_ankle/R_foot_ball
+        weight: 1
+      - path: Master_manipulators_and_scale/Masterroot/Waist/Wasit_override/R_thigh/R_knee/R_ankle/R_foot_ball/R_toe
+        weight: 1
+      - path: Master_manipulators_and_scale/R_elbow_polevector
+        weight: 1
+      - path: Master_manipulators_and_scale/R_knee_polevector
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

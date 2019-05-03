@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 40fb61d924601c94584064dcd695a134
+timeCreated: 1460730079
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BottomSpine1
+    100002: BottomSpine2
+    100004: Chest_manipulator
+    100006: //RootNode
+    100008: geometry_group
+    100010: Head_manipulator
+    100012: IK_handle_group
+    100014: joint1
+    100016: joint2
+    100018: L_arm_IK
+    100020: L_arm_manipulator
+    100022: L_arm_poleVector
+    100024: L_Elbow
+    100026: L_foot_IK
+    100028: L_foot_manipulator
+    100030: L_Forearm
+    100032: L_leg1
+    100034: L_leg2
+    100036: L_Upper_Arm
+    100038: L_Wrist
+    100040: Master_manipulator
+    100042: Master_manipulators_and_scale
+    100044: Master_Root
+    100046: Neck_IK
+    100048: Neck_IK_curve
+    100050: polySurface1
+    100052: R_arm_IK
+    100054: R_arm_manipulator
+    100056: R_arm_poleVector
+    100058: R_Elbow
+    100060: R_foot_IK
+    100062: R_foot_manipulator1
+    100064: R_Forearm
+    100066: R_leg1
+    100068: R_leg2
+    100070: R_Upper_Arm
+    100072: R_Wrist
+    100074: Spine1
+    100076: Spine2
+    100078: Spine3
+    100080: Spine4
+    100082: Spine5
+    100084: Spine6
+    100086: Spine7
+    100088: Spine8
+    100090: Spine9
+    100092: Spine_IK
+    100094: Spine_IK_curve
+    100096: Waist
+    100098: Waist_manipulator
+    100100: Waist_override
+    400000: BottomSpine1
+    400002: BottomSpine2
+    400004: Chest_manipulator
+    400006: //RootNode
+    400008: geometry_group
+    400010: Head_manipulator
+    400012: IK_handle_group
+    400014: joint1
+    400016: joint2
+    400018: L_arm_IK
+    400020: L_arm_manipulator
+    400022: L_arm_poleVector
+    400024: L_Elbow
+    400026: L_foot_IK
+    400028: L_foot_manipulator
+    400030: L_Forearm
+    400032: L_leg1
+    400034: L_leg2
+    400036: L_Upper_Arm
+    400038: L_Wrist
+    400040: Master_manipulator
+    400042: Master_manipulators_and_scale
+    400044: Master_Root
+    400046: Neck_IK
+    400048: Neck_IK_curve
+    400050: polySurface1
+    400052: R_arm_IK
+    400054: R_arm_manipulator
+    400056: R_arm_poleVector
+    400058: R_Elbow
+    400060: R_foot_IK
+    400062: R_foot_manipulator1
+    400064: R_Forearm
+    400066: R_leg1
+    400068: R_leg2
+    400070: R_Upper_Arm
+    400072: R_Wrist
+    400074: Spine1
+    400076: Spine2
+    400078: Spine3
+    400080: Spine4
+    400082: Spine5
+    400084: Spine6
+    400086: Spine7
+    400088: Spine8
+    400090: Spine9
+    400092: Spine_IK
+    400094: Spine_IK_curve
+    400096: Waist
+    400098: Waist_manipulator
+    400100: Waist_override
+    4300000: polySurface1
+    7400000: Chick_Walk Cyclwwwe
+    9500000: //RootNode
+    13700000: polySurface1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Chick_Walk Cyclwwwe
+      takeName: Chick_Walk Cyclwwwe
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: geometry_group
+        weight: 1
+      - path: geometry_group/polySurface1
+        weight: 1
+      - path: IK_handle_group
+        weight: 1
+      - path: IK_handle_group/L_arm_IK
+        weight: 1
+      - path: IK_handle_group/L_foot_IK
+        weight: 1
+      - path: IK_handle_group/Neck_IK
+        weight: 1
+      - path: IK_handle_group/Neck_IK_curve
+        weight: 1
+      - path: IK_handle_group/R_arm_IK
+        weight: 1
+      - path: IK_handle_group/R_foot_IK
+        weight: 1
+      - path: IK_handle_group/Spine_IK
+        weight: 1
+      - path: IK_handle_group/Spine_IK_curve
+        weight: 1
+      - path: Master_manipulators_and_scale
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/Chest_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/Head_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/L_arm_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/L_arm_poleVector
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/L_foot_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/R_arm_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/R_arm_poleVector
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/R_foot_manipulator1
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_manipulator/Waist_manipulator
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Spine7
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Spine7/L_Upper_Arm
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Spine7/L_Upper_Arm/L_Elbow
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Spine7/L_Upper_Arm/L_Elbow/L_Forearm
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Spine7/L_Upper_Arm/L_Elbow/L_Forearm/L_Wrist
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Spine7/R_Upper_Arm
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Spine7/R_Upper_Arm/R_Elbow
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Spine7/R_Upper_Arm/R_Elbow/R_Forearm
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Spine7/R_Upper_Arm/R_Elbow/R_Forearm/R_Wrist
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Spine7/Spine8
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Spine1/Spine2/Spine3/Spine4/Spine5/Spine6/Spine7/Spine8/Spine9
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Waist
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Waist/Waist_override
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Waist/Waist_override/BottomSpine1
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Waist/Waist_override/BottomSpine1/BottomSpine2
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Waist/Waist_override/L_leg1
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Waist/Waist_override/L_leg1/joint2
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Waist/Waist_override/L_leg1/joint2/L_leg2
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Waist/Waist_override/R_leg1
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Waist/Waist_override/R_leg1/joint1
+        weight: 1
+      - path: Master_manipulators_and_scale/Master_Root/Waist/Waist_override/R_leg1/joint1/R_leg2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

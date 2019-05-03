@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &124376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 459980}
+  - 114: {fileID: 11420456}
+  m_Layer: 0
+  m_Name: BoidControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &159844
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 417044}
+  - 114: {fileID: 11485324}
+  m_Layer: 0
+  m_Name: Target
+  m_TagString: Respawn
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &161998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 466440}
+  - 114: {fileID: 11486836}
+  - 114: {fileID: 11473230}
+  m_Layer: 0
+  m_Name: Enemy Spawners
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &417044
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.8882542, y: 39.4, z: -5.1000366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 459980}
+  m_RootOrder: 0
+--- !u!4 &459980
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 109.6, y: 73.79999, z: -127.30005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 417044}
+  m_Father: {fileID: 466440}
+  m_RootOrder: 0
+--- !u!4 &466440
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.9, y: 354.5, z: 803.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 459980}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11420456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ab6f06e0272f304ab822ccae2b60dda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _BoidMovement_prefab: {fileID: 11493060, guid: 00f5a1618e6623e44a95e6e0facaf008,
+    type: 2}
+  FlockSize: 10
+  _cohesion_radius: 0
+  _cohesion_weight: 0
+  _alignment_weight: 0
+  _separation_radius: 30
+  _separation_weight: 5000
+  _max_acceleration: 3000
+  randomness: 0
+  Target: {fileID: 159844}
+  flockCenter: {x: 0, y: 0, z: 0}
+  flockVelocity: {x: 0, y: 0, z: 0}
+  Boid: []
+--- !u!114 &11473230
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee9ee2efd926e454cb928feb68faa1bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11485324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159844}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af8deca2666e2504a81294675de4c8a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PathProgress: 0
+  PathChoice: 0
+  EnemySpeed: 10
+--- !u!114 &11486836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3040d38c132f9c49b34752d31235417, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GreenGermIncAmount: 5
+  YellowGermIncAmount: 1
+  BlueGermIncAmount: 0.5
+  RedGermIncAmount: 0.25
+  PathOne:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  PathTwo:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  PathThree:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  PathFlyOne:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  PathFlyTwo:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  PathFlyThree:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  FlySpawnerPos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  SpawnerPos:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  EnemyID: 0
+  Dustmite_prefab: {fileID: 11436776, guid: 1c345ea620da45241a9e7a5448a2abcc, type: 2}
+  UniqDustmite_prefab: {fileID: 11438494, guid: d78b90a08cc5fd44694467c9c1cd39bc,
+    type: 2}
+  BossDustmite_prefab: {fileID: 11412242, guid: 431c02103fd7112489e30e78058affd9,
+    type: 2}
+  FlyingEnemy_prefab: {fileID: 11476204, guid: 16c49e611f00aea4fb4f64e13808e85c, type: 2}
+  UniqFlyingEnemy_prefab: {fileID: 11404018, guid: d8c2cc46fb29ec041aee00c58a0e41cd,
+    type: 2}
+  BossFlyingEnemy_prefab: {fileID: 11420924, guid: 5187703eb4974984e932122477b10623,
+    type: 2}
+  BlueGerm_prefab: {fileID: 11470720, guid: 6dccafc7ab1b92843880901d947eeeff, type: 2}
+  UniqBlueGerm_prefab: {fileID: 11415636, guid: ebab2ab25e437684b8705c1e150ef631,
+    type: 2}
+  BossBlueGerm_prefab: {fileID: 11446162, guid: 0b74e5c14cc3c3343a9d4b2acfa4f73a,
+    type: 2}
+  Meatball_prefab: {fileID: 11460602, guid: 01d9259fd4d7afc46a52012e421d0828, type: 2}
+  UniqMeatball_prefab: {fileID: 11456650, guid: 940ecfffbd22efa4ba4f435d4f35c7cc,
+    type: 2}
+  BossMeatball_prefab: {fileID: 11437778, guid: 33b4e502ad38ffd478bb4b9883a8c6b3,
+    type: 2}
+  EnemyCount:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  EnemyCountText:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  SpawnRange: 60
+  SpawnDelay: 15
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 161998}
+  m_IsPrefabParent: 1

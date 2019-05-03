@@ -1,0 +1,56 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Player : MonoBehaviour
+{
+<<<<<<< working copy
+    public static float Money = 30;
+=======
+
+    public static int Money = 30;
+>>>>>>> destination
+   
+    public static float StunDur;
+    public static bool Stunned;
+   
+    public GameObject Stun;
+   
+    void Update()
+    {
+       
+        if (Stunned == true)
+        {
+            Stun.SetActive(true);
+            if (Time.time > StunDur)
+            {
+                Stunned = false;
+                Stun.SetActive(false);
+            }
+        }
+    }
+
+    void OnCollisionEnter(Collision Other)
+    {
+        if (Other.collider.tag == "StunEnemy")
+        {
+            if (Stunned == false)
+            {
+                Stunned = true;
+                StunDur = Time.time + 2;
+                EnemySpawn.TotalWaveAmount[EnemySpawn.WaveNumber] -= 1;
+                Destroy(Other.gameObject);
+            }
+
+        }
+        if (Other.collider.tag == "StunEnemyBig")
+        {
+            if (Stunned == false)
+            {
+                Stunned = true;
+                StunDur = Time.time + 5;
+                EnemySpawn.TotalWaveAmount[EnemySpawn.WaveNumber] -= 1;
+                Destroy(Other.gameObject);
+            }
+        }
+    }
+}

@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: 49c948d5cf1c4fc44ae92eabc2a6475b
+timeCreated: 1460730079
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BrocoLee_Idle_1_:Back1
+    100004: BrocoLee_Idle_1_:Back2
+    100006: BrocoLee_Idle_1_:Back3
+    100008: BrocoLee_Idle_1_:Back4
+    100010: BrocoLee_Idle_1_:Back5
+    100012: BrocoLee_Idle_1_:Back6
+    100014: BrocoLee_Idle_1_:Back7
+    100016: BrocoLee_Idle_1_:Broco_obj
+    100018: BrocoLee_Idle_1_:Chest_manipulator
+    100020: BrocoLee_Idle_1_:geometry_group
+    100022: BrocoLee_Idle_1_:group1
+    100024: BrocoLee_Idle_1_:Head
+    100026: BrocoLee_Idle_1_:IK_Back
+    100028: BrocoLee_Idle_1_:IK_handle_group
+    100030: BrocoLee_Idle_1_:L_ball_IK
+    100032: BrocoLee_Idle_1_:L_foot_manipulator
+    100034: BrocoLee_Idle_1_:L_leg_IK
+    100036: BrocoLee_Idle_1_:L_rev_foot_ankle
+    100038: BrocoLee_Idle_1_:L_rev_foot_ball
+    100040: BrocoLee_Idle_1_:L_rev_foot_heel
+    100042: BrocoLee_Idle_1_:L_rev_foot_toe
+    100044: BrocoLee_Idle_1_:L_toe_IK
+    100046: BrocoLee_Idle_1_:Left_Arm_IK
+    100048: BrocoLee_Idle_1_:Left_Arm_PoleVector
+    100050: BrocoLee_Idle_1_:Left_Clav
+    100052: BrocoLee_Idle_1_:Left_Clav_Control
+    100054: BrocoLee_Idle_1_:Left_Elbow
+    100056: BrocoLee_Idle_1_:Left_Leg_PoleVector
+    100058: BrocoLee_Idle_1_:Left_Shoulder
+    100060: BrocoLee_Idle_1_:Left_Stub
+    100062: BrocoLee_Idle_1_:Left_Wrist
+    100064: BrocoLee_Idle_1_:Left_Wrist_Control
+    100066: BrocoLee_Idle_1_:LeftAnckle
+    100068: BrocoLee_Idle_1_:LeftBallFoot
+    100070: BrocoLee_Idle_1_:LeftHip
+    100072: BrocoLee_Idle_1_:LeftKnee
+    100074: BrocoLee_Idle_1_:LeftToe
+    100076: BrocoLee_Idle_1_:LeftTopBoot
+    100078: BrocoLee_Idle_1_:LowerBackCluster
+    100080: BrocoLee_Idle_1_:Master_manipulator
+    100082: BrocoLee_Idle_1_:Master_manipulators_and_scale
+    100084: BrocoLee_Idle_1_:Master_root
+    100086: BrocoLee_Idle_1_:R_ball_IK
+    100088: BrocoLee_Idle_1_:R_foot_manipulator1
+    100090: BrocoLee_Idle_1_:R_leg_IK
+    100092: BrocoLee_Idle_1_:R_rev_foot_ankle
+    100094: BrocoLee_Idle_1_:R_rev_foot_ball
+    100096: BrocoLee_Idle_1_:R_rev_foot_heel
+    100098: BrocoLee_Idle_1_:R_rev_foot_toe
+    100100: BrocoLee_Idle_1_:R_toe_IK
+    100102: BrocoLee_Idle_1_:Right_Ankle
+    100104: BrocoLee_Idle_1_:Right_Arm_IK
+    100106: BrocoLee_Idle_1_:Right_Arm_PoleVector
+    100108: BrocoLee_Idle_1_:Right_Ball_Foot
+    100110: BrocoLee_Idle_1_:Right_Clav
+    100112: BrocoLee_Idle_1_:Right_Clav_Control
+    100114: BrocoLee_Idle_1_:Right_Elbow
+    100116: BrocoLee_Idle_1_:Right_Forearm
+    100118: BrocoLee_Idle_1_:Right_Hip
+    100120: BrocoLee_Idle_1_:Right_Knee
+    100122: BrocoLee_Idle_1_:Right_Leg_PoleVector
+    100124: BrocoLee_Idle_1_:Right_Shoulder
+    100126: BrocoLee_Idle_1_:Right_Toe
+    100128: BrocoLee_Idle_1_:Right_Top_Boot
+    100130: BrocoLee_Idle_1_:Right_Wrist
+    100132: BrocoLee_Idle_1_:Right_Wrist_Control
+    100134: BrocoLee_Idle_1_:Steam_Left_TOp
+    100136: BrocoLee_Idle_1_:Steam_Left_Top
+    100138: BrocoLee_Idle_1_:Steam_Right_Base
+    100140: BrocoLee_Idle_1_:Stem_Left_Base
+    100142: BrocoLee_Idle_1_:Stem_Middle_Base
+    100144: BrocoLee_Idle_1_:Stem_Middle_Top
+    100146: BrocoLee_Idle_1_:UpperBackCluster
+    100148: BrocoLee_Idle_1_:UpperBackControl
+    100150: BrocoLee_Idle_1_:Waist
+    100152: BrocoLee_Idle_1_:waist_manipulator
+    100154: BrocoLee_Idle_1_:waist_override
+    400000: //RootNode
+    400002: BrocoLee_Idle_1_:Back1
+    400004: BrocoLee_Idle_1_:Back2
+    400006: BrocoLee_Idle_1_:Back3
+    400008: BrocoLee_Idle_1_:Back4
+    400010: BrocoLee_Idle_1_:Back5
+    400012: BrocoLee_Idle_1_:Back6
+    400014: BrocoLee_Idle_1_:Back7
+    400016: BrocoLee_Idle_1_:Broco_obj
+    400018: BrocoLee_Idle_1_:Chest_manipulator
+    400020: BrocoLee_Idle_1_:geometry_group
+    400022: BrocoLee_Idle_1_:group1
+    400024: BrocoLee_Idle_1_:Head
+    400026: BrocoLee_Idle_1_:IK_Back
+    400028: BrocoLee_Idle_1_:IK_handle_group
+    400030: BrocoLee_Idle_1_:L_ball_IK
+    400032: BrocoLee_Idle_1_:L_foot_manipulator
+    400034: BrocoLee_Idle_1_:L_leg_IK
+    400036: BrocoLee_Idle_1_:L_rev_foot_ankle
+    400038: BrocoLee_Idle_1_:L_rev_foot_ball
+    400040: BrocoLee_Idle_1_:L_rev_foot_heel
+    400042: BrocoLee_Idle_1_:L_rev_foot_toe
+    400044: BrocoLee_Idle_1_:L_toe_IK
+    400046: BrocoLee_Idle_1_:Left_Arm_IK
+    400048: BrocoLee_Idle_1_:Left_Arm_PoleVector
+    400050: BrocoLee_Idle_1_:Left_Clav
+    400052: BrocoLee_Idle_1_:Left_Clav_Control
+    400054: BrocoLee_Idle_1_:Left_Elbow
+    400056: BrocoLee_Idle_1_:Left_Leg_PoleVector
+    400058: BrocoLee_Idle_1_:Left_Shoulder
+    400060: BrocoLee_Idle_1_:Left_Stub
+    400062: BrocoLee_Idle_1_:Left_Wrist
+    400064: BrocoLee_Idle_1_:Left_Wrist_Control
+    400066: BrocoLee_Idle_1_:LeftAnckle
+    400068: BrocoLee_Idle_1_:LeftBallFoot
+    400070: BrocoLee_Idle_1_:LeftHip
+    400072: BrocoLee_Idle_1_:LeftKnee
+    400074: BrocoLee_Idle_1_:LeftToe
+    400076: BrocoLee_Idle_1_:LeftTopBoot
+    400078: BrocoLee_Idle_1_:LowerBackCluster
+    400080: BrocoLee_Idle_1_:Master_manipulator
+    400082: BrocoLee_Idle_1_:Master_manipulators_and_scale
+    400084: BrocoLee_Idle_1_:Master_root
+    400086: BrocoLee_Idle_1_:R_ball_IK
+    400088: BrocoLee_Idle_1_:R_foot_manipulator1
+    400090: BrocoLee_Idle_1_:R_leg_IK
+    400092: BrocoLee_Idle_1_:R_rev_foot_ankle
+    400094: BrocoLee_Idle_1_:R_rev_foot_ball
+    400096: BrocoLee_Idle_1_:R_rev_foot_heel
+    400098: BrocoLee_Idle_1_:R_rev_foot_toe
+    400100: BrocoLee_Idle_1_:R_toe_IK
+    400102: BrocoLee_Idle_1_:Right_Ankle
+    400104: BrocoLee_Idle_1_:Right_Arm_IK
+    400106: BrocoLee_Idle_1_:Right_Arm_PoleVector
+    400108: BrocoLee_Idle_1_:Right_Ball_Foot
+    400110: BrocoLee_Idle_1_:Right_Clav
+    400112: BrocoLee_Idle_1_:Right_Clav_Control
+    400114: BrocoLee_Idle_1_:Right_Elbow
+    400116: BrocoLee_Idle_1_:Right_Forearm
+    400118: BrocoLee_Idle_1_:Right_Hip
+    400120: BrocoLee_Idle_1_:Right_Knee
+    400122: BrocoLee_Idle_1_:Right_Leg_PoleVector
+    400124: BrocoLee_Idle_1_:Right_Shoulder
+    400126: BrocoLee_Idle_1_:Right_Toe
+    400128: BrocoLee_Idle_1_:Right_Top_Boot
+    400130: BrocoLee_Idle_1_:Right_Wrist
+    400132: BrocoLee_Idle_1_:Right_Wrist_Control
+    400134: BrocoLee_Idle_1_:Steam_Left_TOp
+    400136: BrocoLee_Idle_1_:Steam_Left_Top
+    400138: BrocoLee_Idle_1_:Steam_Right_Base
+    400140: BrocoLee_Idle_1_:Stem_Left_Base
+    400142: BrocoLee_Idle_1_:Stem_Middle_Base
+    400144: BrocoLee_Idle_1_:Stem_Middle_Top
+    400146: BrocoLee_Idle_1_:UpperBackCluster
+    400148: BrocoLee_Idle_1_:UpperBackControl
+    400150: BrocoLee_Idle_1_:Waist
+    400152: BrocoLee_Idle_1_:waist_manipulator
+    400154: BrocoLee_Idle_1_:waist_override
+    4300000: BrocoLee_Idle_1_:Broco_obj
+    7400000: BrocLeeIdle
+    9500000: //RootNode
+    13700000: BrocoLee_Idle_1_:Broco_obj
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: BrocLeeIdle
+      takeName: Blue_Blob
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BrocoLee_Idle_1_:geometry_group
+        weight: 1
+      - path: BrocoLee_Idle_1_:geometry_group/BrocoLee_Idle_1_:Broco_obj
+        weight: 1
+      - path: BrocoLee_Idle_1_:IK_handle_group
+        weight: 1
+      - path: BrocoLee_Idle_1_:IK_handle_group/BrocoLee_Idle_1_:IK_Back
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Chest_manipulator
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Chest_manipulator/BrocoLee_Idle_1_:UpperBackControl
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Chest_manipulator/BrocoLee_Idle_1_:UpperBackControl/BrocoLee_Idle_1_:Left_Clav_Control
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Chest_manipulator/BrocoLee_Idle_1_:UpperBackControl/BrocoLee_Idle_1_:Right_Clav_Control
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Chest_manipulator/BrocoLee_Idle_1_:UpperBackControl/BrocoLee_Idle_1_:UpperBackCluster
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:L_foot_manipulator
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:L_foot_manipulator/BrocoLee_Idle_1_:L_rev_foot_heel
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:L_foot_manipulator/BrocoLee_Idle_1_:L_rev_foot_heel/BrocoLee_Idle_1_:L_rev_foot_toe
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:L_foot_manipulator/BrocoLee_Idle_1_:L_rev_foot_heel/BrocoLee_Idle_1_:L_rev_foot_toe/BrocoLee_Idle_1_:L_rev_foot_ball
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:L_foot_manipulator/BrocoLee_Idle_1_:L_rev_foot_heel/BrocoLee_Idle_1_:L_rev_foot_toe/BrocoLee_Idle_1_:L_rev_foot_ball/BrocoLee_Idle_1_:L_ball_IK
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:L_foot_manipulator/BrocoLee_Idle_1_:L_rev_foot_heel/BrocoLee_Idle_1_:L_rev_foot_toe/BrocoLee_Idle_1_:L_rev_foot_ball/BrocoLee_Idle_1_:L_rev_foot_ankle
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:L_foot_manipulator/BrocoLee_Idle_1_:L_rev_foot_heel/BrocoLee_Idle_1_:L_rev_foot_toe/BrocoLee_Idle_1_:L_rev_foot_ball/BrocoLee_Idle_1_:L_rev_foot_ankle/BrocoLee_Idle_1_:L_leg_IK
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:L_foot_manipulator/BrocoLee_Idle_1_:L_rev_foot_heel/BrocoLee_Idle_1_:L_rev_foot_toe/BrocoLee_Idle_1_:L_toe_IK
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Left_Arm_PoleVector
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Left_Leg_PoleVector
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Left_Wrist_Control
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Left_Wrist_Control/BrocoLee_Idle_1_:Left_Arm_IK
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:R_foot_manipulator1
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:R_foot_manipulator1/BrocoLee_Idle_1_:R_rev_foot_heel
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:R_foot_manipulator1/BrocoLee_Idle_1_:R_rev_foot_heel/BrocoLee_Idle_1_:R_rev_foot_toe
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:R_foot_manipulator1/BrocoLee_Idle_1_:R_rev_foot_heel/BrocoLee_Idle_1_:R_rev_foot_toe/BrocoLee_Idle_1_:R_rev_foot_ball
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:R_foot_manipulator1/BrocoLee_Idle_1_:R_rev_foot_heel/BrocoLee_Idle_1_:R_rev_foot_toe/BrocoLee_Idle_1_:R_rev_foot_ball/BrocoLee_Idle_1_:R_ball_IK
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:R_foot_manipulator1/BrocoLee_Idle_1_:R_rev_foot_heel/BrocoLee_Idle_1_:R_rev_foot_toe/BrocoLee_Idle_1_:R_rev_foot_ball/BrocoLee_Idle_1_:R_rev_foot_ankle
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:R_foot_manipulator1/BrocoLee_Idle_1_:R_rev_foot_heel/BrocoLee_Idle_1_:R_rev_foot_toe/BrocoLee_Idle_1_:R_rev_foot_ball/BrocoLee_Idle_1_:R_rev_foot_ankle/BrocoLee_Idle_1_:R_leg_IK
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:R_foot_manipulator1/BrocoLee_Idle_1_:R_rev_foot_heel/BrocoLee_Idle_1_:R_rev_foot_toe/BrocoLee_Idle_1_:R_toe_IK
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Right_Arm_PoleVector
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Right_Leg_PoleVector
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Right_Wrist_Control
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:Right_Wrist_Control/BrocoLee_Idle_1_:Right_Arm_IK
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_manipulator/BrocoLee_Idle_1_:waist_manipulator
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Back7
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Back7/BrocoLee_Idle_1_:Head
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Back7/BrocoLee_Idle_1_:Head/BrocoLee_Idle_1_:Steam_Right_Base
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Back7/BrocoLee_Idle_1_:Head/BrocoLee_Idle_1_:Steam_Right_Base/BrocoLee_Idle_1_:Steam_Left_TOp
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Back7/BrocoLee_Idle_1_:Head/BrocoLee_Idle_1_:Stem_Left_Base
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Back7/BrocoLee_Idle_1_:Head/BrocoLee_Idle_1_:Stem_Left_Base/BrocoLee_Idle_1_:Steam_Left_Top
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Back7/BrocoLee_Idle_1_:Head/BrocoLee_Idle_1_:Stem_Middle_Base
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Back7/BrocoLee_Idle_1_:Head/BrocoLee_Idle_1_:Stem_Middle_Base/BrocoLee_Idle_1_:Stem_Middle_Top
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Left_Clav
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Left_Clav/BrocoLee_Idle_1_:Left_Shoulder
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Left_Clav/BrocoLee_Idle_1_:Left_Shoulder/BrocoLee_Idle_1_:Left_Elbow
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Left_Clav/BrocoLee_Idle_1_:Left_Shoulder/BrocoLee_Idle_1_:Left_Elbow/BrocoLee_Idle_1_:Left_Wrist
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Left_Clav/BrocoLee_Idle_1_:Left_Shoulder/BrocoLee_Idle_1_:Left_Elbow/BrocoLee_Idle_1_:Left_Wrist/BrocoLee_Idle_1_:Left_Stub
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Right_Clav
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Right_Clav/BrocoLee_Idle_1_:Right_Shoulder
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Right_Clav/BrocoLee_Idle_1_:Right_Shoulder/BrocoLee_Idle_1_:Right_Elbow
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Right_Clav/BrocoLee_Idle_1_:Right_Shoulder/BrocoLee_Idle_1_:Right_Elbow/BrocoLee_Idle_1_:Right_Forearm
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Back1/BrocoLee_Idle_1_:Back2/BrocoLee_Idle_1_:Back3/BrocoLee_Idle_1_:Back4/BrocoLee_Idle_1_:Back5/BrocoLee_Idle_1_:Back6/BrocoLee_Idle_1_:Right_Clav/BrocoLee_Idle_1_:Right_Shoulder/BrocoLee_Idle_1_:Right_Elbow/BrocoLee_Idle_1_:Right_Forearm/BrocoLee_Idle_1_:Right_Wrist
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:group1
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:group1/BrocoLee_Idle_1_:LowerBackCluster
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override/BrocoLee_Idle_1_:LeftHip
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override/BrocoLee_Idle_1_:LeftHip/BrocoLee_Idle_1_:LeftKnee
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override/BrocoLee_Idle_1_:LeftHip/BrocoLee_Idle_1_:LeftKnee/BrocoLee_Idle_1_:LeftTopBoot
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override/BrocoLee_Idle_1_:LeftHip/BrocoLee_Idle_1_:LeftKnee/BrocoLee_Idle_1_:LeftTopBoot/BrocoLee_Idle_1_:LeftAnckle
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override/BrocoLee_Idle_1_:LeftHip/BrocoLee_Idle_1_:LeftKnee/BrocoLee_Idle_1_:LeftTopBoot/BrocoLee_Idle_1_:LeftAnckle/BrocoLee_Idle_1_:LeftBallFoot
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override/BrocoLee_Idle_1_:LeftHip/BrocoLee_Idle_1_:LeftKnee/BrocoLee_Idle_1_:LeftTopBoot/BrocoLee_Idle_1_:LeftAnckle/BrocoLee_Idle_1_:LeftBallFoot/BrocoLee_Idle_1_:LeftToe
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override/BrocoLee_Idle_1_:Right_Hip
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override/BrocoLee_Idle_1_:Right_Hip/BrocoLee_Idle_1_:Right_Knee
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override/BrocoLee_Idle_1_:Right_Hip/BrocoLee_Idle_1_:Right_Knee/BrocoLee_Idle_1_:Right_Top_Boot
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override/BrocoLee_Idle_1_:Right_Hip/BrocoLee_Idle_1_:Right_Knee/BrocoLee_Idle_1_:Right_Top_Boot/BrocoLee_Idle_1_:Right_Ankle
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override/BrocoLee_Idle_1_:Right_Hip/BrocoLee_Idle_1_:Right_Knee/BrocoLee_Idle_1_:Right_Top_Boot/BrocoLee_Idle_1_:Right_Ankle/BrocoLee_Idle_1_:Right_Ball_Foot
+        weight: 1
+      - path: BrocoLee_Idle_1_:Master_manipulators_and_scale/BrocoLee_Idle_1_:Master_root/BrocoLee_Idle_1_:Waist/BrocoLee_Idle_1_:waist_override/BrocoLee_Idle_1_:Right_Hip/BrocoLee_Idle_1_:Right_Knee/BrocoLee_Idle_1_:Right_Top_Boot/BrocoLee_Idle_1_:Right_Ankle/BrocoLee_Idle_1_:Right_Ball_Foot/BrocoLee_Idle_1_:Right_Toe
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

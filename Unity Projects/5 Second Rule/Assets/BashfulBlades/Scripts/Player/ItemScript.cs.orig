@@ -1,0 +1,222 @@
+﻿using UnityEngine;
+using System.Collections;
+using System.Runtime.InteropServices;
+
+
+public class ItemScript : MonoBehaviour
+{
+    //Items
+    public Transform ItemSpawn;
+    public Transform throwTarget;
+    public Transform player;
+    public GameObject GarlicClove;
+    public GameObject Blackpepperbombg;
+    public GameObject Mousetrap;
+    public GameObject Honeycomb;
+    public static int BPAmount = 0;
+    public static int GCAmount = 0;
+    public static int HCAmount = 0;
+    public static int MTAmount = 0;
+    public static int BPCost = 10;
+    public static int GCCost = 5;
+    public static int HCCost = 5;
+    public static int MTCost = 10;
+    public static bool bombBeingThrown = false;
+    public static bool[] ONCEITEM = new bool[5]{true,true,true,true,true};
+
+    public bool yup;
+    public float tossAngle = 45;
+
+    void Start()
+    {
+        BPAmount = 2;
+        GCAmount = 3;
+        HCAmount = 2;
+        MTAmount = 1;
+    }
+    //Pepp = 10
+    //Garlic = 5
+    //Mouse = 20
+    // Honeycomb = 15
+    // Update is called once per frame
+    void Update()
+    {
+        yup = bombBeingThrown;
+        if (ControllerManager.GetButtonDown(4) == true || InputManager.GetKDown('1'))// Y
+        {
+            if (ONCEITEM[0] == true)
+            {
+                bombBeingThrown = true;
+                ONCEITEM[0] = false;
+            }
+            if (ControllerManager.GetButtonDown(1) == true || InputManager.GetKDown('P'))//B
+            {
+                bombBeingThrown = false;
+            }
+        }
+        if (!(ControllerManager.GetButtonDown(4) == true || InputManager.GetKDown('1')) && bombBeingThrown)
+        {
+            GetItemBP(Blackpepperbombg, ItemSpawn);
+            ONCEITEM[0] = true;
+            bombBeingThrown = false;
+        }
+        
+        if (ControllerManager.GetButtonDown(16) == true || InputManager.GetKDown('2'))//B
+        {
+            if (ONCEITEM[3] == true)
+            {
+                GetItemGC(GarlicClove, ItemSpawn);
+                ONCEITEM[3] = false;
+            }
+        }
+        else
+        {
+            ONCEITEM[3] = true;
+        }
+
+        if (ControllerManager.GetButtonDown(15) == true || InputManager.GetKDown('3'))//X
+        {
+            if (ONCEITEM[2] == true)
+            {
+                GetItemHC(Honeycomb, ItemSpawn);
+                ONCEITEM[2] = false;
+            }
+        }
+        else
+        {
+            ONCEITEM[2] = true;
+        }
+        if (ControllerManager.GetButtonDown(14) == true || InputManager.GetKDown('4'))//A
+        {
+            if (ONCEITEM[1] == true)
+            {
+                GetItemMT(Mousetrap, ItemSpawn);
+                ONCEITEM[1] = false;
+            }
+        }
+        else
+        {
+            ONCEITEM[1] = true;
+        }
+    }
+    public void GetItemBP(GameObject Blackpepperbomb, Transform ItemSpawn)
+    {
+        //if (Fill.canUseItem == false)
+        //{
+        if (BPAmount > 0)
+        {
+            BPAmount -= 1;
+            GameObject bomb = (GameObject)Instantiate(Blackpepperbomb, player.position, ItemSpawn.rotation);
+            bomb.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+            bomb.GetComponent<Rigidbody>().velocity = BombThrow.BallisticVel(player, throwTarget, tossAngle);
+        }
+        else if (BPAmount < 1)
+        {
+            if (Player.Money > BPCost)
+            {
+                Player.Money -= BPCost;
+                GameObject bomb = (GameObject)Instantiate(Blackpepperbomb, player.position, ItemSpawn.rotation);
+                bomb.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+                bomb.GetComponent<Rigidbody>().velocity = BombThrow.BallisticVel(player, throwTarget, tossAngle);
+            }
+            else if (Player.Money < BPCost)
+            {
+
+            }
+        }
+        //}
+        //else if (Fill.canUseItem == true)
+        //{
+        //    if (Player.Money >= BPCost)
+        //    {
+        //        BPAmount += 1;
+        //        Player.Money -= BPCost;
+        //    }
+
+        //}
+    }
+    public void GetItemGC(GameObject GarlicClove, Transform ItemSpawn)
+    {
+        //if (Fill.canUseItem == false)
+        // {
+        if (GCAmount > 0)
+        {
+            GCAmount -= 1;
+            Instantiate(GarlicClove, ItemSpawn.position, ItemSpawn.rotation);
+        }
+        else if (GCAmount < 1)
+        {
+            if (Player.Money > GCCost)
+            {
+                Player.Money -= GCCost;
+                Instantiate(GarlicClove, ItemSpawn.position, ItemSpawn.rotation);
+            }
+            else if (Player.Money < GCCost)
+            {
+
+            }
+        }
+        // }
+        //else if (Fill.canUseItem == true)
+        //{
+        //    if (Player.Money >= GCCost)
+        //    {
+        //        GCAmount += 1;
+
+        //    }
+
+        //}
+    }
+    public  void GetItemHC(GameObject Honeycomb, Transform ItemSpawn)
+    {
+        //if (Fill.canUseItem == false)
+        //{
+        if (HCAmount > 0)
+        {
+            HCAmount -= 1;
+            Instantiate(Honeycomb, ItemSpawn.position, ItemSpawn.rotation);
+        }
+        else if (HCAmount < 1)
+        {
+            if (Player.Money > HCCost)
+            {
+                Player.Money -= HCCost;
+                Instantiate(Honeycomb, ItemSpawn.position, ItemSpawn.rotation);
+            }
+            else if (Player.Money < HCCost)
+            {
+
+            }
+        }
+        //}
+        //else if (Fill.canUseItem == true)
+        //{
+        //    if (Player.Money >= HCCost)
+        //    {
+        //        HCAmount += 1;
+        //        Player.Money -= HCCost;
+        //    }
+
+        //}
+    }
+    public  void GetItemMT(GameObject Mousetrap, Transform ItemSpawn)
+    {
+        if (MTAmount > 0)
+        {
+            MTAmount -= 1;
+            Instantiate(Mousetrap, ItemSpawn.position, ItemSpawn.rotation);
+        }
+        else if (MTAmount < 1)
+        {
+            if (Player.Money > MTCost -1)
+            {
+                Player.Money -= MTCost;
+                Instantiate(Mousetrap, ItemSpawn.position, ItemSpawn.rotation);
+            }
+            else if (Player.Money < MTCost)
+            {
+
+            }
+        }        
+    }
+}

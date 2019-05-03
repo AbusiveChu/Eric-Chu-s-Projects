@@ -1,0 +1,132 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class Shooting : MonoBehaviour 
+{
+    private float nextFire;
+    public static float fireRate =  0.5f;
+    public static bool AimSlow = false;
+    public Transform shotSpawn;
+    public Camera cam;
+    public GameObject[] Guns;
+    public GameObject[] Ultis;
+    public AudioSource ShootSound;
+    public GameObject GOPat;
+    public ParticleSystem Pat;
+    public static Ray ray;
+    public static RaycastHit hit;
+    public static Vector3 hitDir;
+    public static bool hitConfirm = false;
+    public float BrocCharge;
+    public bool BrocCharged;
+    Vector3 RayPoint;
+
+    void Start()
+    {
+        RayPoint = new Vector3((Screen.width / 2), (Screen.height / 2), 0);
+    }                         
+
+	void Update () 
+    {
+        //if (Cursor.lockState != CursorLockMode.Locked)
+        //{
+        //    Cursor.lockState = CursorLockMode.Locked;
+        //}
+        if (ControllerManager.GetButtonDown(6) == true && Time.time > nextFire || InputManager.GetMBDown(0) && Time.time > nextFire)
+        {
+            nextFire = Time.time + fireRate;
+            ray = cam.ScreenPointToRay(RayPoint);
+            if (Physics.Raycast(ray, out hit))
+            {
+                if (hit.collider.tag == "Enemy" || hit.collider.tag == "StunEnemy" || hit.collider.tag == "StunEnemyBig")
+                {
+                    AimSlow = true;
+                }
+                else
+                {
+                    AimSlow = false;
+                }
+                hitDir = new Vector3(( hit.point.x - shotSpawn.position.x) / ( hit.distance),
+                                    ( hit.point.y - shotSpawn.position.y) / ( hit.distance),
+                                    ( hit.point.z - shotSpawn.position.z) / ( hit.distance));
+                hitConfirm = true;
+            }
+            if (SetLevel.Broco == true) // share same bullet since they both use swords
+            {
+                Instantiate(Guns[0], shotSpawn.position, shotSpawn.rotation);              
+            }
+            if (SetLevel.Hambo == true) // double shot
+            {
+                Instantiate(Guns[1], shotSpawn.position, shotSpawn.rotation);
+            }
+            if(SetLevel.Chicken == true)
+            {
+                Instantiate(Guns[2], shotSpawn.position, shotSpawn.rotation);
+            }
+            if (SetLevel.Carrot == true) // triple shot
+            {
+                Instantiate(Guns[3], shotSpawn.position, shotSpawn.rotation);
+            }
+            //SoundScript.PlayFmodSound(1,0.4f);
+            
+        }
+        
+        if (SetLevel.Broco == true)
+        {
+            //ARC SHOT
+            if (ControllerManager.GetButtonDown(5) == true && Time.time > Abilities.CoolDownBroc || InputManager.GetMBDown(1) && Time.time > Abilities.CoolDownBroc)
+            {
+                 nextFire = Time.time + fireRate;
+                 ray = cam.ScreenPointToRay(RayPoint);
+                if (Physics.Raycast( ray, out  hit))
+                {
+                     hitDir = new Vector3(( hit.point.x - shotSpawn.position.x) / ( hit.distance),
+                                          ( hit.point.y - shotSpawn.position.y) / ( hit.distance),
+                                          ( hit.point.z - shotSpawn.position.z) / ( hit.distance));
+                     hitConfirm = true;
+                }
+                if (SetLevel.Broco == true)
+                {
+                    Instantiate(Guns[2], shotSpawn.position, shotSpawn.rotation);
+                }
+                GOPat.SetActive(false);
+                Abilities.CoolDownBroc = Time.time + Abilities.delaySkillBroc;
+            }
+            if (Time.time > Abilities.CoolDownBroc)
+            {
+                GOPat.SetActive(true);
+            }
+            //4 = LT //5 = LB //6 = RT //7 = RB
+           
+        }
+        if (SetLevel.Carrot == true)
+        {
+            //ARC SHOT
+            if (ControllerManager.GetButtonDown(5) == true && Time.time > Abilities.CoolDownCarrot || InputManager.GetMBDown(1) && Time.time > Abilities.CoolDownCarrot)
+            {
+                nextFire = Time.time + fireRate;
+                ray = cam.ScreenPointToRay(RayPoint);
+                if (Physics.Raycast(ray, out hit))
+                {
+                    hitDir = new Vector3((hit.point.x - shotSpawn.position.x) / (hit.distance),
+                                         (hit.point.y - shotSpawn.position.y) / (hit.distance),
+                                         (hit.point.z - shotSpawn.position.z) / (hit.distance));
+                    hitConfirm = true;
+                }
+               
+                    Instantiate(Guns[4], shotSpawn.position, shotSpawn.rotation);
+                
+                GOPat.SetActive(false);
+                Abilities.CoolDownCarrot = Time.time + Abilities.delaySkillCarrot;
+            }
+            if (Time.time > Abilities.CoolDownCarrot)
+            {
+                GOPat.SetActive(true);
+            }
+            //4 = LT //5 = LB //6 = RT //7 = RB
+
+        }
+        //BrocCharge -= 0.2f;
+    }
+}
+

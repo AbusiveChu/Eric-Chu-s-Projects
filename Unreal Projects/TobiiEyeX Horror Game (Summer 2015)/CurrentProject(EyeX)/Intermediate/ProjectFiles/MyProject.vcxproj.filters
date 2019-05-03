@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MyProject.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{F0753450-2DFE-458B-B11E-6F2E7B4C3CE5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MyProject.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MyProjectEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{DF1209FC-4387-478E-8F76-C0591797E88E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{1AE72D61-052B-4F8C-994A-104D2362BAFE}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\TobiiEyeX">
+			<UniqueIdentifier>{F664EAD6-1790-46AB-82BA-7EA2EF76B93C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\TobiiEyeX\Source">
+			<UniqueIdentifier>{63022DAE-208D-4AF4-B789-A6B722C49D68}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\TobiiEyeX\Source\TobiiEyeX">
+			<UniqueIdentifier>{D749C744-C8E4-4B65-B011-8892AFAD497A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\TobiiEyeX.Build.cs">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX</Filter>
+		</None >
+		<Filter Include="Plugins\TobiiEyeX\Source\TobiiEyeX\Private">
+			<UniqueIdentifier>{35FCB0E5-A396-451A-928E-B357895B0A1A}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXActorBase.cpp">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXBlueprintLibrary.cpp">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXBlueprintLibrary.h">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXClientLibraryLoader.cpp">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXClientLibraryLoader.h">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXDataStream.cpp">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXDataStream.h">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXMathHelpers.cpp">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXMathHelpers.h">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXPlayerController.cpp">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXPlugin.cpp">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXPlugin.h">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXPluginPrivatePCH.h">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXStateAccessor.cpp">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXStateAccessor.h">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXUtils.cpp">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Private\EyeXUtils.h">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\TobiiEyeX\Source\TobiiEyeX\Public">
+			<UniqueIdentifier>{33830CED-C389-4D2E-B6EA-031DD7FC972E}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Public\EyeXActorBase.h">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Public\EyeXPlayerController.h">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Public\EyeXTypes.h">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\TobiiEyeX\Source\TobiiEyeX\Public\IEyeXPlugin.h">
+			<Filter>Plugins\TobiiEyeX\Source\TobiiEyeX\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\TobiiEyeX\TobiiEyeX.uplugin">
+			<Filter>Plugins\TobiiEyeX</Filter>
+		</None >
+		<Filter Include="Plugins\TobiiEyeX\Resources">
+			<UniqueIdentifier>{4E9704CA-17B6-41CF-B42E-9700FB69542E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\TobiiEyeX\Resources\Icon128.png">
+			<Filter>Plugins\TobiiEyeX\Resources</Filter>
+		</None >
+		<Filter Include="Source\MyProject">
+			<UniqueIdentifier>{FACB8BB2-DC29-4F38-9DA4-56DBC889165E}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\MyProject\MyClass.cpp">
+			<Filter>Source\MyProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyProject\MyClass.h">
+			<Filter>Source\MyProject</Filter>
+		</ClInclude >
+		<None Include="..\..\Source\MyProject\MyProject.Build.cs">
+			<Filter>Source\MyProject</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MyProject\MyProject.cpp">
+			<Filter>Source\MyProject</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MyProject\MyProject.h">
+			<Filter>Source\MyProject</Filter>
+		</ClInclude >
+		<Filter Include="Source\MyProject\Resources">
+			<UniqueIdentifier>{84F23816-F410-4DA5-A290-2E5A59D54CB0}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\MyProject\Resources\Windows">
+			<UniqueIdentifier>{9F4A47BF-6D1B-4306-87B5-68AF1AFE8651}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="..\..\Source\MyProject\Resources\Windows\MyProject.rc">
+			<Filter>Source\MyProject\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

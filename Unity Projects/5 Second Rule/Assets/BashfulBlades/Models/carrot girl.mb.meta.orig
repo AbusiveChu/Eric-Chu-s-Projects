@@ -1,0 +1,411 @@
+<<<<<<< local
+fileFormatVersion: 2
+guid: 2c9a89ef557b0d84bbe61c654ab84c20
+timeCreated: 1454705821
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: bottom
+    100004: //RootNode
+    100006: CarrotCena
+    100008: joint1
+    100010: joint10
+    100012: joint10 1
+    100014: joint11
+    100016: joint11 1
+    100018: joint12
+    100020: joint12 1
+    100022: joint12 2
+    100024: joint12 3
+    100026: joint13
+    100028: joint13 1
+    100030: joint13 2
+    100032: joint13 3
+    100034: joint14
+    100036: joint14 1
+    100038: joint14 2
+    100040: joint14 3
+    100042: joint15
+    100044: joint15 1
+    100046: joint15 2
+    100048: joint15 3
+    100050: joint16
+    100052: joint16 1
+    100054: joint17
+    100056: joint17 1
+    100058: joint18
+    100060: joint18 1
+    100062: joint18 2
+    100064: joint18 3
+    100066: joint19
+    100068: joint19 1
+    100070: joint19 2
+    100072: joint19 3
+    100074: joint2
+    100076: joint2 1
+    100078: joint20
+    100080: joint20 1
+    100082: joint20 2
+    100084: joint20 3
+    100086: joint21
+    100088: joint21 1
+    100090: joint21 2
+    100092: joint21 3
+    100094: joint22
+    100096: joint22 1
+    100098: joint23
+    100100: joint3
+    100102: joint3 1
+    100104: joint4
+    100106: joint4 1
+    100108: joint5
+    100110: joint5 1
+    100112: joint6
+    100114: joint6 1
+    100116: joint7
+    100118: joint7 1
+    100120: joint8
+    100122: joint8 1
+    100124: joint9
+    100126: joint9 1
+    100128: left
+    400000: back
+    400002: bottom
+    400004: //RootNode
+    400006: CarrotCena
+    400008: joint1
+    400010: joint10
+    400012: joint10 1
+    400014: joint11
+    400016: joint11 1
+    400018: joint12
+    400020: joint12 1
+    400022: joint12 2
+    400024: joint12 3
+    400026: joint13
+    400028: joint13 1
+    400030: joint13 2
+    400032: joint13 3
+    400034: joint14
+    400036: joint14 1
+    400038: joint14 2
+    400040: joint14 3
+    400042: joint15
+    400044: joint15 1
+    400046: joint15 2
+    400048: joint15 3
+    400050: joint16
+    400052: joint16 1
+    400054: joint17
+    400056: joint17 1
+    400058: joint18
+    400060: joint18 1
+    400062: joint18 2
+    400064: joint18 3
+    400066: joint19
+    400068: joint19 1
+    400070: joint19 2
+    400072: joint19 3
+    400074: joint2
+    400076: joint2 1
+    400078: joint20
+    400080: joint20 1
+    400082: joint20 2
+    400084: joint20 3
+    400086: joint21
+    400088: joint21 1
+    400090: joint21 2
+    400092: joint21 3
+    400094: joint22
+    400096: joint22 1
+    400098: joint23
+    400100: joint3
+    400102: joint3 1
+    400104: joint4
+    400106: joint4 1
+    400108: joint5
+    400110: joint5 1
+    400112: joint6
+    400114: joint6 1
+    400116: joint7
+    400118: joint7 1
+    400120: joint8
+    400122: joint8 1
+    400124: joint9
+    400126: joint9 1
+    400128: left
+    4300000: CarrotCena
+    9500000: //RootNode
+    13700000: CarrotCena
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+=======
+fileFormatVersion: 2
+guid: 1de5c7d6eae3a7e4cba91f1fe33dfbcd
+timeCreated: 1454707967
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back
+    100002: bottom
+    100004: //RootNode
+    100006: CarrotCena
+    100008: joint1
+    100010: joint10
+    100012: joint10 1
+    100014: joint11
+    100016: joint11 1
+    100018: joint12
+    100020: joint12 1
+    100022: joint12 2
+    100024: joint12 3
+    100026: joint13
+    100028: joint13 1
+    100030: joint13 2
+    100032: joint13 3
+    100034: joint14
+    100036: joint14 1
+    100038: joint14 2
+    100040: joint14 3
+    100042: joint15
+    100044: joint15 1
+    100046: joint15 2
+    100048: joint15 3
+    100050: joint16
+    100052: joint16 1
+    100054: joint17
+    100056: joint17 1
+    100058: joint18
+    100060: joint18 1
+    100062: joint18 2
+    100064: joint18 3
+    100066: joint19
+    100068: joint19 1
+    100070: joint19 2
+    100072: joint19 3
+    100074: joint2
+    100076: joint2 1
+    100078: joint20
+    100080: joint20 1
+    100082: joint20 2
+    100084: joint20 3
+    100086: joint21
+    100088: joint21 1
+    100090: joint21 2
+    100092: joint21 3
+    100094: joint22
+    100096: joint22 1
+    100098: joint23
+    100100: joint3
+    100102: joint3 1
+    100104: joint4
+    100106: joint4 1
+    100108: joint5
+    100110: joint5 1
+    100112: joint6
+    100114: joint6 1
+    100116: joint7
+    100118: joint7 1
+    100120: joint8
+    100122: joint8 1
+    100124: joint9
+    100126: joint9 1
+    100128: left
+    400000: back
+    400002: bottom
+    400004: //RootNode
+    400006: CarrotCena
+    400008: joint1
+    400010: joint10
+    400012: joint10 1
+    400014: joint11
+    400016: joint11 1
+    400018: joint12
+    400020: joint12 1
+    400022: joint12 2
+    400024: joint12 3
+    400026: joint13
+    400028: joint13 1
+    400030: joint13 2
+    400032: joint13 3
+    400034: joint14
+    400036: joint14 1
+    400038: joint14 2
+    400040: joint14 3
+    400042: joint15
+    400044: joint15 1
+    400046: joint15 2
+    400048: joint15 3
+    400050: joint16
+    400052: joint16 1
+    400054: joint17
+    400056: joint17 1
+    400058: joint18
+    400060: joint18 1
+    400062: joint18 2
+    400064: joint18 3
+    400066: joint19
+    400068: joint19 1
+    400070: joint19 2
+    400072: joint19 3
+    400074: joint2
+    400076: joint2 1
+    400078: joint20
+    400080: joint20 1
+    400082: joint20 2
+    400084: joint20 3
+    400086: joint21
+    400088: joint21 1
+    400090: joint21 2
+    400092: joint21 3
+    400094: joint22
+    400096: joint22 1
+    400098: joint23
+    400100: joint3
+    400102: joint3 1
+    400104: joint4
+    400106: joint4 1
+    400108: joint5
+    400110: joint5 1
+    400112: joint6
+    400114: joint6 1
+    400116: joint7
+    400118: joint7 1
+    400120: joint8
+    400122: joint8 1
+    400124: joint9
+    400126: joint9 1
+    400128: left
+    4300000: CarrotCena
+    9500000: //RootNode
+    13700000: CarrotCena
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>> other

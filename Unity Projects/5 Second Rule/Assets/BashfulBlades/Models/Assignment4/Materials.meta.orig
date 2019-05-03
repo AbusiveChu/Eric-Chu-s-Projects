@@ -1,0 +1,21 @@
+<<<<<<< local
+fileFormatVersion: 2
+guid: 030fa6b432f97cf41999302e83ebf740
+folderAsset: yes
+timeCreated: 1454705822
+licenseType: Free
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+=======
+fileFormatVersion: 2
+guid: e3d8ad0476b64544d9d70d6569100488
+folderAsset: yes
+timeCreated: 1454707970
+licenseType: Free
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>> other

@@ -1,0 +1,27 @@
+<<<<<<< local
+fileFormatVersion: 2
+guid: ceb0d4e76e0e49e42be7f5f7ada788c3
+timeCreated: 1454726346
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+=======
+fileFormatVersion: 2
+guid: ecc62829638af9d47a38f54d7434b478
+timeCreated: 1454780747
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+>>>>>>> other

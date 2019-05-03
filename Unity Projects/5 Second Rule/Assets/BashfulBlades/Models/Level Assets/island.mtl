@@ -1,0 +1,22 @@
+# Blender MTL File: 'None'
+# Material Count: 2
+
+newmtl Island1Mat
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.203794 0.134292
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\100514238\Documents\Blender Projects\5SecondRule\island_AO.png
+
+newmtl Island1Mat2
+Ns 92.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\100514238\Documents\Blender Projects\5SecondRule\island_AO.png

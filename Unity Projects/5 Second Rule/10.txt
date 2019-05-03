@@ -1,0 +1,9 @@
+input story text
+Input Option one
+0
+Input Option two
+0
+Input Option three
+0
+Input Option four
+0

@@ -1,0 +1,66 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class SetLevel : MonoBehaviour 
+{
+    //Character Info
+    public static bool Broco;
+    public static bool Hambo;
+    public static bool Carrot;
+    public static bool Chicken;
+    public GameObject CarrotGO;
+    public GameObject HamboGO;
+    public GameObject BrocoGO;
+    public GameObject ChickenGO;
+    public GameObject CarrotGOFood;
+    public GameObject HamboGOFood;
+    public GameObject BrocoGOFood;
+    public GameObject ChickenGOFood;
+
+	// Use this for initialization
+	void Awake () 
+    {
+        //Carrot
+        CarrotGO.SetActive(false);
+        CarrotGOFood.SetActive(false);
+        //Ham
+        HamboGO.SetActive(false);
+        HamboGOFood.SetActive(false);
+        //Broccoli
+        BrocoGO.SetActive(false);
+        BrocoGOFood.SetActive(false);
+        //Chicken
+        ChickenGO.SetActive(false);
+        ChickenGOFood.SetActive(false);
+
+        if (Hambo == false && Carrot == false && Broco == false && Chicken == false)
+        {
+            Hambo = true;
+            EnemySpawn.LevelRound = 666;     
+        };
+        if (Hambo == true)
+        {
+            SaveLoadGame.MeatPlay = SaveLoadGame.MeatPlay + 1;
+            HamboGO.SetActive(true);
+            HamboGOFood.SetActive(true);
+        }
+        else if (Broco == true)
+        {
+            SaveLoadGame.VeggiePlay = SaveLoadGame.VeggiePlay + 1;
+            BrocoGO.SetActive(true);
+            BrocoGOFood.SetActive(true);
+        }
+        else if (Carrot == true)
+        {
+            SaveLoadGame.VeggiePlay = SaveLoadGame.VeggiePlay + 1;
+            CarrotGO.SetActive(true);
+            CarrotGOFood.SetActive(true);
+        }
+        else if(Chicken == true)
+        {
+            SaveLoadGame.MeatPlay = SaveLoadGame.MeatPlay + 1;
+            ChickenGO.SetActive(true);
+            ChickenGOFood.SetActive(true);
+        }
+	}
+}
