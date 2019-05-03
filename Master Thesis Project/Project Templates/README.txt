@@ -1,0 +1,1 @@
+The starter content was removed from these project. I properly run these projects in the editor please download the unreal engine start content and add them to the "Content" folder for each respective project.
